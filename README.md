@@ -1,46 +1,48 @@
-# CRAFTRISE NETWORK - İNDİRME DİZİNİ (INDEX)
+# CRAFTRISE NETWORK - DİZİN YAPISI  
 
-Aşağıdaki liste, CraftRise istemci ve API sunucularındaki dosya yapısını ve doğrudan indirme bağlantılarını içerir.
+--------------------------------------------------  
 
-## [ANA DİZİN] 
-> Konum: `https://client.craftrise.network/client/`
+[ANA DİZİN](https://client.craftrise.network/client/) "https://client.craftrise.network/client/"  
+│  
+├── index                          (0 B)  
+└── index.html                     (0 B)  
 
-* [index](https://client.craftrise.network/client/index) (0 B)
-* [index.html](https://client.craftrise.network/client/index.html) (0 B)
+[API DİZİNİ](https://client.craftrise.network/api/) "https://client.craftrise.network/api/"  
+│  
+├── launcher/  
+│&emsp;&emsp;&emsp;&emsp;&emsp;├── launcher                   (1.4 KB)  
+│&emsp;&emsp;&emsp;&emsp;&emsp;├── launcher.json              (1.4 KB)  
+│&emsp;&emsp;&emsp;&emsp;&emsp;│  
+│&emsp;&emsp;&emsp;&emsp;&emsp;├── files/  
+│&emsp;&emsp;&emsp;&emsp;&emsp;│&emsp;&emsp;&emsp;├── launcher.exe           (933 KB)  
+│&emsp;&emsp;&emsp;&emsp;&emsp;│&emsp;&emsp;&emsp;├── launcher.jar           (32 MB)  
+│&emsp;&emsp;&emsp;&emsp;&emsp;│&emsp;&emsp;&emsp;├── assets.jar             (73 MB)  
+│&emsp;&emsp;&emsp;&emsp;&emsp;│&emsp;&emsp;&emsp;└── beta.jar               (12 MB)  
+│&emsp;&emsp;&emsp;&emsp;&emsp;│  
+│&emsp;&emsp;&emsp;&emsp;&emsp;└── libraries/  
+│&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;├── assets.zip             (107 MB)  
+│&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;├── libraries.zip          (68 MB)  
+│&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;├── index                  (0 B)  
+│&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;└── index.html             (0 B)  
+│  
+├── client/  
+│&emsp;&emsp;&emsp;&emsp;│  
+│&emsp;&emsp;&emsp;&emsp;└── files/  
+│&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;├── index                      (0 B)  
+│&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;└── index.html                 (0 B)  
+│    
+├── posts/  
+│&emsp;&emsp;&emsp;&emsp;├── index                      (0 B)  
+│&emsp;&emsp;&emsp;&emsp;└── index.html                 (0 B)  
+│  
+└── utils/  
+    &emsp;&emsp;&emsp;&emsp;├── index                      (0 B)  
+    &emsp;&emsp;&emsp;&emsp;└── index.html                 (0 B)  
+  
+--------------------------------------------------
 
----
+Kullanılmış Wordlist:
 
-## [API DİZİNİ]
-> Konum: `https://client.craftrise.network/api/`
+### https://raw.githubusercontent.com/danielmiessler/SecLists/refs/heads/master/Discovery/Web-Content/common.txt
 
-### 📂 launcher/
-* [launcher](https://client.craftrise.network/api/launcher/launcher) (1.4 KB)
-* [launcher.json](https://client.craftrise.network/api/launcher/launcher.json) (1.4 KB)
-
-#### 📂 launcher/files/
-* [launcher.exe](https://client.craftrise.network/api/launcher/files/launcher.exe) (933 KB)
-* [launcher.jar](https://client.craftrise.network/api/launcher/files/launcher.jar) (32 MB)
-* [assets.jar](https://client.craftrise.network/api/launcher/files/assets.jar) (73 MB)
-* [beta.jar](https://client.craftrise.network/api/launcher/files/beta.jar) (12 MB)
-
-#### 📂 launcher/libraries/
-* [assets.zip](https://client.craftrise.network/api/launcher/libraries/assets.zip) (107 MB)
-* [libraries.zip](https://client.craftrise.network/api/launcher/libraries/libraries.zip) (68 MB)
-* [index](https://client.craftrise.network/api/launcher/libraries/index) (0 B)
-* [index.html](https://client.craftrise.network/api/launcher/libraries/index.html) (0 B)
-
----
-
-### 📂 Diğer Modüller
-
-#### 📂 client/files/
-* [index](https://client.craftrise.network/api/client/files/index) (0 B)
-* [index.html](https://client.craftrise.network/api/client/files/index.html) (0 B)
-
-#### 📂 posts/
-* [index](https://client.craftrise.network/api/posts/index) (0 B)
-* [index.html](https://client.craftrise.network/api/posts/index.html) (0 B)
-
-#### 📂 utils/
-* [index](https://client.craftrise.network/api/utils/index) (0 B)
-* [index.html](https://client.craftrise.network/api/utils/index.html) (0 B)
+Ffuf ile taranmıştır
