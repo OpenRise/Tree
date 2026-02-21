@@ -18,6 +18,7 @@
 │&emsp;&emsp;&emsp;&emsp;&emsp;│&emsp;&emsp;&emsp;├── launcher.jar           (32 MB)  
 │&emsp;&emsp;&emsp;&emsp;&emsp;│&emsp;&emsp;&emsp;├── assets.jar             (73 MB)  
 │&emsp;&emsp;&emsp;&emsp;&emsp;│&emsp;&emsp;&emsp;└── beta.jar               (12 MB)  
+│&emsp;&emsp;&emsp;&emsp;&emsp;│&emsp;&emsp;&emsp;└── assetsbeta.jar         (12 MB)  
 │&emsp;&emsp;&emsp;&emsp;&emsp;│  
 │&emsp;&emsp;&emsp;&emsp;&emsp;└── libraries/  
 │&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;├── assets.zip             (107 MB)  
